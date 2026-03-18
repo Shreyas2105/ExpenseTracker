@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "/api" });
+const API = axios.create({ baseURL: "https://expensetracker-ck5e.onrender.com//api" });
 
 
 API.interceptors.request.use((req) => {
